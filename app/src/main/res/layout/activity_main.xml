@@ -80,9 +80,22 @@
                 android:ems="10"
                 android:hint="Pincode"
                 android:inputType="number"
+                android:maxLength="6"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextGender" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_Show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Show"
+                app:layout_constraintHorizontal_bias="0.563"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumberPincode" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
